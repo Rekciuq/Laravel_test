@@ -17,7 +17,6 @@ return new class extends Migration
             $table->id();
             $table->text('url');
             $table->text('title')->nullable();
-            $table->integer('job_id')->nullable();
         });
     }
 

@@ -27,5 +27,23 @@ class DatabaseSeeder extends Seeder
             'password' => 'manager223',
             'role' => 'Manager'
         ]);
+        \App\Models\Url::create([
+            'url' => 'https://www.speedrun.com/',
+        ]);
+        \App\Models\Url::create([
+            'url' => 'https://www.google.com/',
+        ]);
+        \App\Models\Url::create([
+            'url' => 'https://www.youtube.com/',
+        ]);
+        \App\Models\Url::create([
+            'url' => 'https://laravel.com/docs/10.x/authentication#introduction',
+        ]);
+        \App\Models\Url::create([
+            'url' => 'https://laravel.com/',
+        ]);
+        \App\Models\Url::create([
+            'url' => 'http://127.0.0.1:8500/',
+        ]);
     }
 }
